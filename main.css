@@ -1,0 +1,37 @@
+#product-overview {
+    background: #ff1b68;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+/* selectors:
+elements: h1 {
+
+}
+classes:
+.blog-spot {
+
+}
+universal:
+* {
+
+}
+IDs:
+#main-title {
+
+}
+attributes:
+[disabld] {
+
+} */
