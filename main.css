@@ -40,26 +40,30 @@ attributes:
 
 } */
 
+/* properties like: background-color, widht, color, display...
+values like: red, 30%, #fa923f, 10px, block... */
+
 /* combinators:
 
 adjacent sibling:
 div + p {
 
 }
-just follow thw p-s which are after just h2 and all element should be on the same level
+just follow thw p-s which are after immediately div and all element should be on the same level
 general sibling:
 div ~ p {
 
 }
-just the h2 elements needs to be in the same level and after for all p apply
+just the div elements needs to be in the same level and after for all p apply
 child:
 div > p {
 
 }
-applies if just the direct child for an element like for <div> 
+all <p> elements that are immediate children of a <div> element
 descendant:
 div p {
 
 }
-applies for all p elemnet does not matter it is direct child or not
+all <p> elements inside <div> elements
+
 */
