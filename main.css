@@ -71,6 +71,15 @@ body {
     color: #0e4f1f;
 }
 
+.main-nav__item a::after {
+    content: " (Link) ";
+    color:red;
+}
+/* Pseudo class and element:
+class:
+:class name
+element:
+: : element name */
 .main-nav__item a:hover {
     color: white;
 }
@@ -78,6 +87,10 @@ body {
     color: white;
 }
 
+p::first-letter {
+    color: red;
+    font-size: 20px;
+}
 /* h1 {
     font-family: sans-serif;
 } */
