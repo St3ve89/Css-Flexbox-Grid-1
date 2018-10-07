@@ -33,6 +33,11 @@ body {
     width: 100%;
 }
 
+.main-nav__item {
+    /* setting up in one line: */
+    display: inline-block;
+}
+
 /* h1 {
     font-family: sans-serif;
 } */
@@ -89,6 +94,6 @@ Shorthand property: border: 2px dashed orange - border-widht, border-style, bord
 margin: 10px- all top right bottom left all same
 margin: 5px 10 px-top bottom, left right
 margin: 5px 10px 5px 10px-top right bottom left
-
+Display:block-visible, none-not visible
 
 */
