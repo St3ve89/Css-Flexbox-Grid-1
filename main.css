@@ -69,6 +69,8 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px;
 }
 
 /* .main-nav__item a::after {
@@ -84,6 +86,7 @@ element:
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
+    border-bottom: 5px solid white;
 }
 
 p::first-letter {
