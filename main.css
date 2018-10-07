@@ -9,7 +9,7 @@ body {
 }
 
 #product-overview {
-    background: #ff1b68;
+    background: url("freedom.jpg");
     width: 700px;
     /* width and hight: this we can use with % or with px */
     height: 528px;
