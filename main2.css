@@ -64,6 +64,24 @@ body {
     margin: 8px 0;
 }
 
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5 px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
+
+}
+
 .section-title {
     color: #2ddf5c;
     text-align: center;
