@@ -85,7 +85,7 @@ body {
     outline: none;
 }
 
-#key-feature {
+#key-features {
     background: #ff1b68;
     margin-top: 80px;
     padding: 16px;
@@ -96,10 +96,40 @@ body {
     margin: 32px;
 }
 
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature__element {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
 .section-title {
     color: #2ddf5c;
     text-align: center;
 }
+
 
 #product-overview h1 {
     color: white;
