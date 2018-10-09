@@ -85,6 +85,17 @@ body {
     outline: none;
 }
 
+#key-feature {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-feature .section-title {
+    color: white;
+    margin: 32px;
+}
+
 .section-title {
     color: #2ddf5c;
     text-align: center;
