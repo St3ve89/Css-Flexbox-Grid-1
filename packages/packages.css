@@ -15,13 +15,25 @@ main {
     margin: 16px 0;
     border: 4px solid #0e4f1f;
     border-left: none;
+    position: relative;
 }
+
+/* fixed and absolute value are quite comperable in general, both take out the element from the document float, 
+for fixed value the positioning context always the viewport, for the absolute value the positioning
+context is depend: The element is positioned relative to its first positioned (not static) ancestor element */
 
 .package a {
     text-decoration: none;
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    margin: 20px;
 }
 
 .package:hover,
