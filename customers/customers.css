@@ -21,6 +21,7 @@
 
 .testimonial__image {
     width: 100%;
+    max-width: 580px;
     vertical-align: top;
 }
 
