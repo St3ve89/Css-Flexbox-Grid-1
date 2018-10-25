@@ -6,6 +6,8 @@ var toggleButton = document.querySelector('.toggle-button');
 var mobileNav = document.querySelector('.mobile-nav');
 
 // console.dir(backdrop);
+// console.dir(backdrop.style['background-image']);
+
 for (var i = 0; i < selectPlanButtons.length; i++) {
     selectPlanButtons[i].addEventListener("click", function() {
         // modal.style.display = "block";
